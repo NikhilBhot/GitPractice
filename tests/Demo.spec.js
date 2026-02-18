@@ -4,7 +4,7 @@ test('Test1',async({page})=>{
 
     
 
-    await page.goto('https://www.google.com/Employee1');
+    await page.goto('https://www.google.com/');
 
     await expect(page).toHaveTitle('Google');
 })
